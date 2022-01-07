@@ -1,0 +1,16 @@
+//  https://www.ipb.uni-bonn.de/teaching/cpp-2020/lectures/
+// https://www.youtube.com/watch?v=mV_8GbzwZMM&t=0s&ab_channel=EngineerMan
+// https://www.youtube.com/watch?v=oxuRxtrO2Ag&t=0s&ab_channel=JoeCollins
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp"
+		}
+	}
+	
+}

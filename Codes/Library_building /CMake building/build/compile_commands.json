@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/build",
+  "command": "/usr/bin/c++    -Wall   -std=gnu++17 -o CMakeFiles/main.dir/main.cpp.o -c \"/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/main.cpp\"",
+  "file": "/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/main.cpp"
+},
+{
+  "directory": "/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/build",
+  "command": "/usr/bin/c++    -Wall   -std=gnu++17 -o CMakeFiles/tools.dir/tools.cpp.o -c \"/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/tools.cpp\"",
+  "file": "/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/tools.cpp"
+}
+] 

@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+            "${workspaceFolder}",
+            "/usr/include/c++/9",
+            "/usr/include/x86_64-linux-gnu/c++/9",
+            "/usr/include/c++/9/backward",
+            "/usr/lib/gcc/x86_64-linux-gnu/9/include",
+            "/usr/local/include",
+            "/usr/include/x86_64-linux-gnu",
+            "/usr/include",
+            "/usr/local/include/opencv4",
+            "/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/3/homework_3/api"
+            
+                  ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

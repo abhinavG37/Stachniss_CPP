@@ -1,0 +1,2 @@
+/usr/bin/ar qc libblah_lib.a  CMakeFiles/blah_lib.dir/blah.cpp.o
+/usr/bin/ranlib libblah_lib.a

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/writer.dir/main.cpp.o  -o writer  libhtml_writer.a 

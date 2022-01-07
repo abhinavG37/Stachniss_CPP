@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../build/lib/libio_tools.a CMakeFiles/io_tools.dir/io_tools.cpp.o
+/usr/bin/ranlib ../../build/lib/libio_tools.a

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Templates/src/StackDriver.cpp
+iostream
+-
+Stack.hpp
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Templates/src/Stack.hpp
+vector
+-
+

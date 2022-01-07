@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TESTER"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\include\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_extern">
+				<Option output="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin/Test_extern" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/./include"/>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_extern"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_extern/fast">
+				<Option output="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin/Test_extern" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/./include"/>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_extern/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serializer">
+				<Option output="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin/serializer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/./include"/>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 serializer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serializer/fast">
+				<Option output="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin/serializer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/./include"/>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 serializer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/./include"/>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/./include"/>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/./include"/>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/./include"/>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convert_dataset">
+				<Option output="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/lib/libconvert_dataset.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/cmake-build-debug/include"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/./include"/>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 convert_dataset"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convert_dataset/fast">
+				<Option output="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/lib/libconvert_dataset.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/cmake-build-debug/include"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/./include"/>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 convert_dataset/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SerializerLib">
+				<Option output="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/lib/libSerializerLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/cmake-build-debug/include"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/./include"/>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 SerializerLib"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SerializerLib/fast">
+				<Option output="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/build/lib/libSerializerLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/cmake-build-debug/include"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/./include"/>
+					<Add directory="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 SerializerLib/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/abhinav137/Desktop/Code_Projects/C++\ Tutorials/Stachniss\ Modern\ C++/Homeworks/5/homework_5/cmake-build-debug/include/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include/convert_dataset.cpp">
+			<Option target="convert_dataset"/>
+			<Option target="SerializerLib"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include/convert_dataset.hpp">
+			<Option target="convert_dataset"/>
+			<Option target="SerializerLib"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include/deserialize.cpp">
+			<Option target="SerializerLib"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include/serialize.cpp">
+			<Option target="SerializerLib"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include/serialize.hpp">
+			<Option target="SerializerLib"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/src/TESTERCODE.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/src/TESTERCODE_extern.cpp">
+			<Option target="Test_extern"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/src/main.cpp">
+			<Option target="serializer"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/../../../../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/../../../../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/../../../../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/../../../../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

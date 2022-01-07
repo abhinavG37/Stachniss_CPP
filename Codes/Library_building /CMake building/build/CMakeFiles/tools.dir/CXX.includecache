@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/tools.cpp
+tools.h
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/tools.h
+iostream
+-
+
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/tools.h
+

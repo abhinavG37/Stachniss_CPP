@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library_building /CMAKE_TUT/HelloWorld Example/main.cpp
+iostream
+-
+blah.h
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library_building /CMAKE_TUT/HelloWorld Example/blah.h
+
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library_building /CMAKE_TUT/HelloWorld Example/src/blah.cpp
+blah.h
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library_building /CMAKE_TUT/HelloWorld Example/src/blah.h
+iostream
+-
+

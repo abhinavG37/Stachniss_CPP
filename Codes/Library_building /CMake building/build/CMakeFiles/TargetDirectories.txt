@@ -1,0 +1,4 @@
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/build/CMakeFiles/rebuild_cache.dir
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/build/CMakeFiles/edit_cache.dir
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/build/CMakeFiles/main.dir
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Codes/Library building /CMake building/build/CMakeFiles/tools.dir

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../build/lib/libSerializerLib.a CMakeFiles/SerializerLib.dir/serialize.cpp.o CMakeFiles/SerializerLib.dir/deserialize.cpp.o CMakeFiles/SerializerLib.dir/convert_dataset.cpp.o
+/usr/bin/ranlib ../../build/lib/libSerializerLib.a

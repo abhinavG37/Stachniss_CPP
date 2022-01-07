@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/6/homework_6/io_tools/io_tools.cpp
+io_tools.hpp
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/6/homework_6/io_tools/io_tools.hpp
+bits/stdint-uintn.h
+-
+fstream
+-
+ios
+-
+iostream
+-
+string
+-
+
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/6/homework_6/io_tools/io_tools.hpp
+cstddef
+-
+string
+-
+vector
+-
+

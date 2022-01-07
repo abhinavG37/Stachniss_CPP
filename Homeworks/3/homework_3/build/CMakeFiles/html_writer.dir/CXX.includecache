@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/3/homework_3/api/html_writer.cpp
+./include/homework_3.h
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/3/homework_3/api/include/homework_3.h
+iostream
+-
+string
+-
+fstream
+-
+fmt/format.h
+-
+filesystem
+-
+
+/home/abhinav137/Desktop/Code Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/3/homework_3/api/include/homework_3.h
+string
+-
+array
+-
+string
+-
+tuple
+-
+vector
+-
+
