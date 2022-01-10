@@ -24,7 +24,7 @@ int main(){
 //  cv::Mat m_test = cv::imread("./tests/data/freiburg/images/imageCompressedCam0_0000000.png");
 //  cout << "ROWS" << m.rows << endl;
 //  cout << "COLS" << m.cols << endl;
-
+    cout << "OpenCV version : " << CV_VERSION << endl;
   std::filesystem::path png_path = "/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/data/freiburg/images";
   std::filesystem::path bin_path = "/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/data/freiburg/bin";
   ipb::serialization::sifts::ConvertDataset(png_path);

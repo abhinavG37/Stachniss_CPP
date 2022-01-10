@@ -414,6 +414,8 @@ include/CMakeFiles/convert_dataset.dir/convert_dataset.cpp.o
  /usr/local/include/opencv4/opencv2/video.hpp
  /usr/local/include/opencv4/opencv2/video/tracking.hpp
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp
+ /usr/local/include/opencv4/opencv2/xfeatures2d.hpp
+ /usr/local/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
  /home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/5/homework_5/include/homework_5.h
  /usr/local/include/opencv4/opencv2/highgui/highgui.hpp
  /usr/local/include/opencv4/opencv2/objdetect/objdetect.hpp
