@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../build/bin/main"
   "../build/bin/main.pdb"
-  "CMakeFiles/main.dir/include/homework_7.cpp.o"
+  "CMakeFiles/main.dir/include/homework_7_vanilla.cpp.o"
   "CMakeFiles/main.dir/src/main.cpp.o"
 )
 

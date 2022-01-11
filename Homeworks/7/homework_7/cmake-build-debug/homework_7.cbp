@@ -90,10 +90,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/include/homework_7.cpp">
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/include/homework_7_vanilla.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/include/homework_7.h">
+		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/include/homework_7_vanilla.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/src/main.cpp">

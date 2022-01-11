@@ -129,29 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-include/homework_7.o: include/homework_7.cpp.o
-.PHONY : include/homework_7.o
+include/homework_7_vanilla.o: include/homework_7_vanilla.cpp.o
+.PHONY : include/homework_7_vanilla.o
 
 # target to build an object file
-include/homework_7.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/include/homework_7.cpp.o
-.PHONY : include/homework_7.cpp.o
+include/homework_7_vanilla.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/include/homework_7_vanilla.cpp.o
+.PHONY : include/homework_7_vanilla.cpp.o
 
-include/homework_7.i: include/homework_7.cpp.i
-.PHONY : include/homework_7.i
+include/homework_7_vanilla.i: include/homework_7_vanilla.cpp.i
+.PHONY : include/homework_7_vanilla.i
 
 # target to preprocess a source file
-include/homework_7.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/include/homework_7.cpp.i
-.PHONY : include/homework_7.cpp.i
+include/homework_7_vanilla.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/include/homework_7_vanilla.cpp.i
+.PHONY : include/homework_7_vanilla.cpp.i
 
-include/homework_7.s: include/homework_7.cpp.s
-.PHONY : include/homework_7.s
+include/homework_7_vanilla.s: include/homework_7_vanilla.cpp.s
+.PHONY : include/homework_7_vanilla.s
 
 # target to generate assembly for a file
-include/homework_7.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/include/homework_7.cpp.s
-.PHONY : include/homework_7.cpp.s
+include/homework_7_vanilla.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/include/homework_7_vanilla.cpp.s
+.PHONY : include/homework_7_vanilla.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... include/homework_7.o"
-	@echo "... include/homework_7.i"
-	@echo "... include/homework_7.s"
+	@echo "... include/homework_7_vanilla.o"
+	@echo "... include/homework_7_vanilla.i"
+	@echo "... include/homework_7_vanilla.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

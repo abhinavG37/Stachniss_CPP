@@ -3,8 +3,8 @@
 //
 #include <opencv2/core/mat.hpp>
 
-#ifndef HOMEWORK_7_HOMEWORK_7_H
-#define HOMEWORK_7_HOMEWORK_7_H
+#ifndef HOMEWORK_7_HOMEWORK_7_VANILLA_H
+#define HOMEWORK_7_HOMEWORK_7_VANILLA_H
 /**
 * @brief
 * 1. Given cluster centroids i initialized in some way,
@@ -22,6 +22,6 @@ One unique Matrix representing all the $k$-means(stacked).
 */
 
 namespace ipb {
-cv::Mat kMeans(const std::vector<cv::Mat> &descriptors, int k, int max_iters);
+cv::Mat kMeansVanilla(const std::vector<cv::Mat> &descriptors, int k, int max_iters);
 }
-#endif // HOMEWORK_7_HOMEWORK_7_H
+#endif // HOMEWORK_7_HOMEWORK_7_VANILLA_H

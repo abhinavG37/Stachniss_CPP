@@ -79,29 +79,29 @@ CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/src/main.cpp" -o CMakeFiles/main.dir/src/main.cpp.s
 
-CMakeFiles/main.dir/include/homework_7.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/include/homework_7.cpp.o: ../include/homework_7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/include/homework_7.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/include/homework_7.cpp.o -c "/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/include/homework_7.cpp"
+CMakeFiles/main.dir/include/homework_7_vanilla.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/include/homework_7_vanilla.cpp.o: ../include/homework_7_vanilla.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/include/homework_7_vanilla.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/include/homework_7_vanilla.cpp.o -c "/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/include/homework_7_vanilla.cpp"
 
-CMakeFiles/main.dir/include/homework_7.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/include/homework_7.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/include/homework_7.cpp" > CMakeFiles/main.dir/include/homework_7.cpp.i
+CMakeFiles/main.dir/include/homework_7_vanilla.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/include/homework_7_vanilla.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/include/homework_7_vanilla.cpp" > CMakeFiles/main.dir/include/homework_7_vanilla.cpp.i
 
-CMakeFiles/main.dir/include/homework_7.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/include/homework_7.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/include/homework_7.cpp" -o CMakeFiles/main.dir/include/homework_7.cpp.s
+CMakeFiles/main.dir/include/homework_7_vanilla.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/include/homework_7_vanilla.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/abhinav137/Desktop/Code_Projects/C++ Tutorials/Stachniss Modern C++/Homeworks/7/homework_7/include/homework_7_vanilla.cpp" -o CMakeFiles/main.dir/include/homework_7_vanilla.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.o" \
-"CMakeFiles/main.dir/include/homework_7.cpp.o"
+"CMakeFiles/main.dir/include/homework_7_vanilla.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 ../build/bin/main: CMakeFiles/main.dir/src/main.cpp.o
-../build/bin/main: CMakeFiles/main.dir/include/homework_7.cpp.o
+../build/bin/main: CMakeFiles/main.dir/include/homework_7_vanilla.cpp.o
 ../build/bin/main: CMakeFiles/main.dir/build.make
 ../build/bin/main: /usr/local/lib/libopencv_gapi.so.4.5.2
 ../build/bin/main: /usr/local/lib/libopencv_stitching.so.4.5.2
