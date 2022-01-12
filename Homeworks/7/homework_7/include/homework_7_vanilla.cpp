@@ -52,6 +52,7 @@ cv::Mat ipb::kMeansVanilla( const std::vector<cv::Mat> &descriptorSet, int k, in
     for(int i = 0; i<k; i++){
         clusterCenters.push_back(unclusteredDescriptors.row(static_cast<int>(rand() % unclusteredDescriptors.rows+0)));
     }
+
     const unsigned int singleLineSize = unclusteredDescriptors.rows * unclusteredDescriptors.cols;
     const unsigned int K = 10;
     cv::Mat data = unclusteredDescriptors;
@@ -66,7 +67,7 @@ cv::Mat ipb::kMeansVanilla( const std::vector<cv::Mat> &descriptorSet, int k, in
         for(int j = 0; j<k;j++){
             if(labels.at(i)== j){
                 stacks.at(j).push_back(data.row(i));
-                }
+            }
         }
     }
     cv::Mat means;
@@ -76,6 +77,5 @@ cv::Mat ipb::kMeansVanilla( const std::vector<cv::Mat> &descriptorSet, int k, in
         means.push_back(temp);
         std::cout<<"averaged"<<std::endl;
     }
-
     return clusteredDescriptors;
 }

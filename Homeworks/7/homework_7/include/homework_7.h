@@ -2,6 +2,9 @@
 // Created by abhinav137 on 10/07/21.
 //
 #include <opencv2/core/mat.hpp>
+#include <opencv2/core/core.hpp>
+#include "opencv2/highgui.hpp"
+#include <map>
 
 #ifndef HOMEWORK_7_HOMEWORK_7_H
 #define HOMEWORK_7_HOMEWORK_7_H

@@ -1,7 +1,7 @@
 #include <iostream>
 using std::cout;
 using std::endl;
-#include "homework_7_vanilla.h"
+#include "homework_7.h"
 #include <opencv2/core/core.hpp>
 #include "opencv2/highgui.hpp"
 #include <map>
@@ -36,10 +36,9 @@ using std::endl;
  *
  * */
 
-
 cv::Mat ipb::kMeans( const std::vector<cv::Mat> &descriptorSet, int k, int max_iters){
     cv::Mat unclusteredDescriptors, clusteredDescriptors;
-    std::map<int, cv::Mat> descriptorMap;
+    std::vector<std::pair<int, cv::Mat>> descriptorMap;
 
     //Reshape Descriptor Set to stack all descriptors into one cv::Mat object
     for(const auto & soloDescriptor : descriptorSet) {
@@ -48,16 +47,17 @@ cv::Mat ipb::kMeans( const std::vector<cv::Mat> &descriptorSet, int k, int max_i
     unclusteredDescriptors.convertTo(unclusteredDescriptors, CV_32F);
 
     //Randomly select initial cluster centers
-    std::vector<cv::Mat> clusterCenters;
+    std::vector<cv::Mat> clusterCenters; //should be of size [K, 128] for SIFT
     for(int i = 0; i<k; i++){
-        clusterCenters.push_back(unclusteredDescriptors.row(static_cast<int>(rand() % unclusteredDescriptors.rows+0)));
+        auto seed = static_cast<int>(rand() % unclusteredDescriptors.rows+0);
+        clusterCenters.push_back(unclusteredDescriptors.row(seed));
     }
-
-//    //Begin KNN clustering
+    cv::Mat dataVec;
+    //Begin KNN clustering
     for(auto i=0; i<max_iters;i++){
         //Iterate through descriptors
         //Assign index of current cluster center to the current feature descriptor
-        cv::Mat dataVec;
+
         for(auto row = 0; row<unclusteredDescriptors.rows; row++) {
             dataVec = unclusteredDescriptors.row(row);
             std::vector<double> Norm;
@@ -66,21 +66,23 @@ cv::Mat ipb::kMeans( const std::vector<cv::Mat> &descriptorSet, int k, int max_i
                 Norm.push_back(cv::norm(dataVec, clusterCenter));
             }
             int minNormIndex = static_cast<int>(std::min_element(Norm.begin(), Norm.end()) - Norm.begin()); //Find index of smallest norm
-            descriptorMap.insert(std::pair<int, cv::Mat>(minNormIndex,dataVec));   //Use smallest norm index as new cluster center for current descriptor
+            descriptorMap.emplace_back(minNormIndex,dataVec);   //Use smallest norm index as new cluster center for current descriptor vector
         }
 
+        //std::Map cannot be used as non-unique keys are not added just updated
+
         //Generating new centroids
-        std::map<int, cv::Mat>::iterator it;
-        for(int i = 0; i<k; i++){
+        std::vector<std::pair<int, cv::Mat>>::iterator it;
+        for(int index = 0; index<k; index++){
             cv::Mat temp;
-            for (it = descriptorMap.begin(); it != descriptorMap.end(); it++){
-                if(it->first == i) {
+             for (it = descriptorMap.begin(); it != descriptorMap.end(); it++){
+                if(it->first == index) {
                     temp.push_back(it->second);
                 }
             }
-            clusterCenters.at(i) = cv::mean(temp, cv::noArray());
+            clusterCenters.at(index) = cv::mean(temp, cv::noArray());
             //Reduce vertically stacked descriptors with the same label to generate new centroid vector
-            cv::reduce(temp, clusterCenters.at(i), 0, cv::REDUCE_AVG);
+            cv::reduce(temp, clusterCenters.at(index), 0, cv::REDUCE_AVG);
         }
 
     }
@@ -90,30 +92,6 @@ cv::Mat ipb::kMeans( const std::vector<cv::Mat> &descriptorSet, int k, int max_i
     }
 
 
-        const unsigned int singleLineSize = unclusteredDescriptors.rows * unclusteredDescriptors.cols;
-        const unsigned int K = 10;
-        cv::Mat data = unclusteredDescriptors;
-        data.convertTo(data, CV_32F);
-        std::vector<int> labels;
-        cv::Mat1f colors;
-        std::cout<<"Working"<<std::endl;
-        cv::kmeans(data, K, labels, cv::TermCriteria(cv::TermCriteria::EPS + cv::TermCriteria::COUNT, 10, 1.), max_iters, cv::KMEANS_PP_CENTERS, colors);
-        std::vector<cv::Mat> stacks(k);
-
-        for(int i = 0; i<labels.size(); i++) {
-            for(int j = 0; j<k;j++){
-                if(labels.at(i)== j){
-                    stacks.at(j).push_back(data.row(i));
-                    }
-            }
-        }
-        cv::Mat means;
-        for(const auto& stackNumber : stacks){
-            cv::Mat temp;
-            cv::reduce(stackNumber, temp, 0, cv::REDUCE_AVG);
-            means.push_back(temp);
-            std::cout<<"averaged"<<std::endl;
-        }
 
     return clusteredDescriptors;
 }
