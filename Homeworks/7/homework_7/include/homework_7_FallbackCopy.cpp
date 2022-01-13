@@ -37,7 +37,10 @@ using std::endl;
 //====                   Constructors                   =====
 //===========================================================
 
-ipb::BowDictionary::BowDictionary(){}
+ipb::BowDictionary::BowDictionary(): K(1),
+                                    MAX_ITERS(1),
+                                    DESCRIPTOR_SET(std::vector<cv::Mat>(0, cv::Mat(0,0,CV_32F))),
+                                    BOW_DICT(cv::Mat(0,0,CV_32F)) {}
 //===========================================================
 //====                   Setter Functions               =====
 //===========================================================
@@ -80,26 +83,25 @@ int ipb::BowDictionary::total_features() const{
 //====                   KNN Functions                  =====
 //===========================================================
 
-cv::Mat ipb::BowDictionary::kMeans(std::vector<cv::Mat>& descriptorSet , int k, int max_iters){
-    set_params(max_iters, k,  descriptorSet);
+cv::Mat ipb::BowDictionary::kMeans( const std::vector<cv::Mat> &descriptorSet, int k, int max_iters){
     cv::Mat unclusteredDescriptors, clusteredDescriptors;
     std::vector<std::pair<int, cv::Mat>> descriptorMap;
 
     //Reshape Descriptor Set to stack all descriptors into one cv::Mat object
-    for(const auto & soloDescriptor : DESCRIPTOR_SET) {
+    for(const auto & soloDescriptor : descriptorSet) {
         unclusteredDescriptors.push_back(soloDescriptor);
     }
     unclusteredDescriptors.convertTo(unclusteredDescriptors, CV_32F);
 
     //Randomly select initial cluster centers
     std::vector<cv::Mat> clusterCenters; //should be of size [K, 128] for SIFT
-    for(int i = 0; i<K; i++){
+    for(int i = 0; i<k; i++){
         auto seed = static_cast<int>(rand() % unclusteredDescriptors.rows+0);
         clusterCenters.push_back(unclusteredDescriptors.row(seed));
     }
     cv::Mat dataVec;
     //Begin KNN clustering
-    for(auto i=0; i<MAX_ITERS;i++){
+    for(auto i=0; i<max_iters;i++){
         //Iterate through descriptors
         //Assign index of current cluster center to the current feature descriptor
         for(auto row = 0; row<unclusteredDescriptors.rows; row++) {
@@ -116,7 +118,7 @@ cv::Mat ipb::BowDictionary::kMeans(std::vector<cv::Mat>& descriptorSet , int k, 
 
         //Generating new centroids
         std::vector<std::pair<int, cv::Mat>>::iterator it;
-        for(int index = 0; index<K; index++){
+        for(int index = 0; index<k; index++){
             cv::Mat temp;
             for (it = descriptorMap.begin(); it != descriptorMap.end(); it++){
                 if(it->first == index) {
@@ -131,7 +133,6 @@ cv::Mat ipb::BowDictionary::kMeans(std::vector<cv::Mat>& descriptorSet , int k, 
     for(const auto & element : clusterCenters) {
         clusteredDescriptors.push_back(element);
     }
-    BOW_DICT = clusteredDescriptors;
     return clusteredDescriptors;
 }
 

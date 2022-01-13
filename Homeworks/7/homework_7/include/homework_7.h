@@ -25,6 +25,30 @@ One unique Matrix representing all the $k$-means(stacked).
 */
 
 namespace ipb {
-cv::Mat kMeans(const std::vector<cv::Mat> &descriptors, int k, int max_iters);
+
+    class BowDictionary{
+    private:
+        int K;
+        int MAX_ITERS;
+        std::vector<cv::Mat> DESCRIPTOR_SET;
+        cv::Mat BOW_DICT;
+
+    public:
+        BowDictionary();
+        cv::Mat kMeans(std::vector<cv::Mat> &descriptors, int k, int max_iters);
+
+        //Getter Methods
+        [[nodiscard]] int max_iterations() const;
+        [[nodiscard]] int size() const;
+        [[nodiscard]] std::vector<cv::Mat> descriptors() const;
+        [[nodiscard]] cv::Mat vocabulary() const;
+        [[nodiscard]] int total_features() const;
+
+        //Setter Methods
+        void set_params(int Iterations, int ClusterCount, std::vector<cv::Mat>& descriptor_set);
+        void set_max_iterations(int Iterations);
+        void set_cluster_size(int ClusterCount);
+        void set_descriptors(std::vector<cv::Mat>& descriptor_set);
+    };
 }
 #endif // HOMEWORK_7_HOMEWORK_7_H

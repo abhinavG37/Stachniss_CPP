@@ -27,11 +27,11 @@ int main( int argc, char* argv[] ) {
     ipb::serialization::sifts::ConvertDataset(png_path);
 
 
-    const std::vector<cv::Mat>& descriptorSet = ipb::serialization::sifts::LoadDataset(bin_path);
-    cv::imshow("FeatureDescriptors",descriptorSet.at(0) );
-    cv::waitKey(0);
+    std::vector<cv::Mat> descriptorSet = ipb::serialization::sifts::LoadDataset(bin_path);
 
-    cv::Mat clusters = ipb::kMeans(descriptorSet, CLUSTERS, ITERATIONS);
+
+    ipb::BowDictionary BowDictObj;
+    cv::Mat clusters = BowDictObj.kMeans(descriptorSet, CLUSTERS, ITERATIONS);
     cv::imshow("CLUSTERED", clusters);
     cv::waitKey(0);
 
