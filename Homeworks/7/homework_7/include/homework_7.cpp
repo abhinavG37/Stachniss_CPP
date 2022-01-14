@@ -3,7 +3,6 @@ using std::cout;
 using std::endl;
 #include "homework_7.h"
 #include <opencv2/core/core.hpp>
-#include "opencv2/highgui.hpp"
 #include <map>
 
 /**
@@ -37,20 +36,31 @@ using std::endl;
 //====                   Constructors                   =====
 //===========================================================
 
-ipb::BowDictionary::BowDictionary(){}
+ipb::BowDictionary::BowDictionary(): K(1), MAX_ITERS(1){};
+
+//===========================================================
+//====                   Instantiation                  =====
+//===========================================================
+ipb::BowDictionary* ipb::BowDictionary::BowDictionaryObj_ = nullptr;
+ipb::BowDictionary *ipb::BowDictionary::getInstance(){
+    if(BowDictionaryObj_ == nullptr){
+        BowDictionaryObj_ = new ipb::BowDictionary();
+    }
+    return BowDictionaryObj_;
+};
 //===========================================================
 //====                   Setter Functions               =====
 //===========================================================
 
 void ipb::BowDictionary::set_params(int Iterations, int ClusterCount, std::vector<cv::Mat>& descriptorSet){
     ipb::BowDictionary::set_descriptors(descriptorSet);
-    ipb::BowDictionary::set_cluster_size(ClusterCount);
+    ipb::BowDictionary::set_size(ClusterCount);
     ipb::BowDictionary::set_max_iterations(Iterations);
 }
 void ipb::BowDictionary::set_max_iterations(int Iterations){
     MAX_ITERS = Iterations;
 }
-void ipb::BowDictionary::set_cluster_size(int ClusterCount){
+void ipb::BowDictionary::set_size(int ClusterCount){
     K = ClusterCount;
 }
 void ipb::BowDictionary::set_descriptors(std::vector<cv::Mat>& descriptorSet){
@@ -124,7 +134,7 @@ cv::Mat ipb::BowDictionary::kMeans(std::vector<cv::Mat>& descriptorSet , int k, 
                 }
             }
             clusterCenters.at(index) = cv::mean(temp, cv::noArray());
-            //Reduce vertically stacked descriptors with the same label to generate new centroid vector
+           //Reduce vertically stacked descriptors with the same label to generate new centroid vector
             cv::reduce(temp, clusterCenters.at(index), 0, cv::REDUCE_AVG);
         }
     }
@@ -132,6 +142,7 @@ cv::Mat ipb::BowDictionary::kMeans(std::vector<cv::Mat>& descriptorSet , int k, 
         clusteredDescriptors.push_back(element);
     }
     BOW_DICT = clusteredDescriptors;
-    return clusteredDescriptors;
+    return BOW_DICT;
 }
+
 
